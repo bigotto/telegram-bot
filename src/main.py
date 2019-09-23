@@ -42,7 +42,7 @@ def network(bot, update):
     update.message.reply_text(msg)
 
 #Configurando o Bot
-updater = Updater('793281209:AAFaAxdxZ_9JC5BSm0eyJbDswbKfYkJFnxg')
+updater = Updater('TOKEN HERE')
 updater.dispatcher.add_handler(CommandHandler('start', start))
 updater.dispatcher.add_handler(CommandHandler('speedtest', network))
 
