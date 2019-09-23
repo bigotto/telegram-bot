@@ -46,11 +46,6 @@ updater = Updater('793281209:AAFaAxdxZ_9JC5BSm0eyJbDswbKfYkJFnxg')
 updater.dispatcher.add_handler(CommandHandler('start', start))
 updater.dispatcher.add_handler(CommandHandler('speedtest', network))
 
-# dp = updater.dispatcher
-# Create handler
-# start_handler = CommandHandler('start', start)
-# Add handler
-# dp.add_handler(start_handler)
 updater.start_polling()
 updater.idle()
 
